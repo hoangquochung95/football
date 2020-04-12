@@ -1,0 +1,30 @@
+.home-1{
+  background-image: url("../images/home_background.jpg");
+  height: 100vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-nav{
+  background: rgba(255, 255, 255, 0.1);
+  
+  .navbar-collapse{
+    .navbar-nav{
+      .nav-item {
+        .nav-link{
+          font-size: 15px;
+          padding-top: 1.5rem;
+          padding-bottom: 1.5rem;
+          padding-left: 20px;
+          padding-right: 20px;
+          color: #000000;
+          color: rgba(255, 255, 255, 0.8);
+          font-family: "Oswald", Arial, sans-serif;
+          text-transform: uppercase;
+          opacity: 1 !important;
+        }
+      }
+    }
+
+  }
+  
+}

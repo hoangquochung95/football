@@ -4,7 +4,7 @@ use Mix.Config
 config :football, Football.Repo,
   username: "postgres",
   password: "postgres",
-  database: "football_dev",
+  database: "football_api_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
